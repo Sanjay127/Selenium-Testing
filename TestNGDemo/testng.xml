@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Parallel Test">
+  <test thread-count="3" parallel="methods" name="Testno">
+    <classes>
+      <class name="com.test.TestNGDemo.ParallelTest"/>
+    </classes>
+  </test> <!-- Testno -->
+</suite> <!-- Parallel Test -->
